@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Home Page Test - 1. Login test 2. Upload video test]">
+  <test name="Login test with Correct credentials(failed)">
+    <classes>
+      <class name="com.wikia.testcases.LoginTest">
+        <methods>
+          <include name="doIncorrectLogin" invocation-numbers="1"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- com.wikia.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login test with Correct credentials(failed) -->
+</suite> <!-- Failed suite [Home Page Test - 1. Login test 2. Upload video test] -->

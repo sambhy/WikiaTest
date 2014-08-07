@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Home Page Test - 1. Login test 2. Upload video test" duration-ms="140574" started-at="2014-08-07T20:23:53Z" finished-at="2014-08-07T20:26:13Z">
+    <groups>
+    </groups>
+    <test name="Login test with Correct credentials" duration-ms="112509" started-at="2014-08-07T20:23:53Z" finished-at="2014-08-07T20:25:45Z">
+      <class name="com.wikia.testcases.LoginTest">
+        <test-method status="PASS" signature="doIncorrectLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wikia.testcases.LoginTest@1c1bced]" name="doIncorrectLogin" duration-ms="112444" started-at="2014-08-07T22:23:53Z" data-provider="getData" finished-at="2014-08-07T22:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[singhgurpreet123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@ssw0rD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Morzilla]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIncorrectLogin -->
+        <test-method status="SKIP" signature="doIncorrectLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wikia.testcases.LoginTest@1c1bced]" name="doIncorrectLogin" duration-ms="2" started-at="2014-08-07T22:25:45Z" data-provider="getData" finished-at="2014-08-07T22:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[singhgurpreet123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@ssw0rD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping as Flag is N]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping as Flag is N
+	at com.wikia.testcases.LoginTest.doIncorrectLogin(LoginTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doIncorrectLogin -->
+      </class> <!-- com.wikia.testcases.LoginTest -->
+    </test> <!-- Login test with Correct credentials -->
+    <test name="Uploading the video test when logged in" duration-ms="27024" started-at="2014-08-07T20:25:46Z" finished-at="2014-08-07T20:26:13Z">
+      <class name="com.wikia.testcases.LoginTest">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.wikia.testcases.LoginTest@1c1bced]" name="CloseBrowser" is-config="true" duration-ms="18368" started-at="2014-08-07T22:26:14Z" finished-at="2014-08-07T22:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.wikia.testcases.LoginTest -->
+      <class name="com.wikia.testcases.UploadVideoTest">
+        <test-method status="PASS" signature="uploadVideoTest()[pri:0, instance:com.wikia.testcases.UploadVideoTest@60a8c0]" name="uploadVideoTest" duration-ms="27020" started-at="2014-08-07T22:25:46Z" finished-at="2014-08-07T22:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadVideoTest -->
+      </class> <!-- com.wikia.testcases.UploadVideoTest -->
+    </test> <!-- Uploading the video test when logged in -->
+  </suite> <!-- Home Page Test - 1. Login test 2. Upload video test -->
+</testng-results>

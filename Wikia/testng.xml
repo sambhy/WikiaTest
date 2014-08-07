@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Home Page Test - 1. Login test 2. Upload video test">
+
+
+<test name="Login test with Correct credentials">
+    <classes>
+        <class name="com.wikia.testcases.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="Uploading the video test when logged in">
+    <classes>
+        <class name="com.wikia.testcases.UploadVideoTest" ></class>  
+    </classes>
+</test>
+
+
+</suite>
