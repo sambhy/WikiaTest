@@ -1,0 +1,198 @@
+
+ANTS should be configured to run the test from command line: 
+
+The ANT can be downloaded from http://ant.apache.org/bindownload.cgi 
+and further instructions will be found in http://ant.apache.org/manualdownload.cgi.
+In the build.xml file of ant one of the properties to look for jars is <property name="ws.jars" value="E:\jars"/> thereby ant requires all jars to be avialabe in "E:\jars".
+Kindly change this propery according to your computer configurations. The required jar which should be present in the jars directory can be downloaded here from GitHub or Internet or dropbox(https://www.dropbox.com/sh/0zxgn67mczzhkp6/AADKEl2g3qc0Izpc9J7QE50Ha?n=63047246)
+
+
+cd till you reach the project and use the below commands
+
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>ant clean
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>ant complie
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>ant run
+
+
+The TestNg produces a graphical result in my computer it produces here file:///file:///C:/Users/Gurpreet/Downloads/Wikia/Wikia/test-output/index.html. 
+But this can be seen in the test-output folder in the IDE or one can browse to this location.
+
+
+The google chrome version used is Version 36.0.1985.125 m
+The firefox version used is firefox 31.0 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+OUTPUT:
+
+The test is executed from this environment: productionEnvironment.properties
+[TestNG] Running:
+  C:\Users\Gurpreet\Downloads\Wikia\Wikia\testng.xml
+
+Test-homework Wiki
+http://testhomework.wikia.com/wiki/Test-homework_Wiki
+http://testhomework.wikia.com/wiki/Test-homework_Wiki
+Login Test sucessfull with username : singhgurpreet123& password: p@ssw0rD
+The expected title is Singhgurpreet123
+The title flex is Singhgurpreet123
+Test-homework Wiki
+http://testhomework.wikia.com/wiki/Test-homework_Wiki
+http://testhomework.wikia.com/wiki/Test-homework_Wiki
+The expected title is Contribute Add a Video Add a Photo Add a Page Wiki Activity
+The title flex is Contribute
+Edit this Page
+Add a Video
+Add a Photo
+Add a Page
+Wiki Activity
+The expected title is File:The Best Classical Music In The World
+The title flex is File:The Best Classical Music In The World
+http://testhomework.wikia.com/wiki/File:The_Best_Classical_Music_In_The_World
+http://testhomework.wikia.com/wiki/File:The_Best_Classical_Music_In_The_World
+
+===============================================
+Home Page Test - 1. Login test 2. Upload video test
+Total tests run: 3, Failures: 0, Skips: 1
+===============================================
+
+
+
+
+
+
+
+
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Gurpreet>cd C:\Users\Gurpreet\Downloads\Wikia\Wikia\
+
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>ant clean
+Buildfile: C:\Users\Gurpreet\Downloads\Wikia\Wikia\build.xml
+
+clean:
+   [delete] Deleting directory C:\Users\Gurpreet\Downloads\Wikia\Wikia\build
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>ant compile
+Buildfile: C:\Users\Gurpreet\Downloads\Wikia\Wikia\build.xml
+
+setClassPath:
+
+init:
+
+clean:
+
+compile:
+     [echo] making directory...
+    [mkdir] Created dir: C:\Users\Gurpreet\Downloads\Wikia\Wikia\build
+     [echo] classpath------: D:\jars\apache-mime4j-0.6.jar:D:\jars\bsh-1.3.0.jar:D:\jars\cglib-nodep-2.1_3.jar:D:\jars\commons-codec-1.9
+:\jars\commons-exec-1.1.jar:D:\jars\commons-io-2.4.jar:D:\jars\commons-jxpath-1.3.jar:D:\jars\commons-lang3-3.2.1.jar:D:\jars\commons-lo
+:D:\jars\guava-15.0.jar:D:\jars\hamcrest-core-1.3.jar:D:\jars\hamcrest-library-1.3.jar:D:\jars\htmlunit-2.14.jar:D:\jars\htmlunit-core-j
+ars\httpcore-4.3.1.jar:D:\jars\httpmime-4.3.2.jar:D:\jars\ini4j-0.5.2.jar:D:\jars\jcommander-1.29.jar:D:\jars\jetty-websocket-8.1.8.jar:
+.4.0.jar:D:\jars\json-20080701.jar:D:\jars\junit-dep-4.11.jar:D:\jars\nekohtml-1.9.20.jar:D:\jars\netty-3.5.7.Final.jar:D:\jars\operadri
+r:D:\jars\protobuf-java-2.4.1.jar:D:\jars\sac-1.3.jar:D:\jars\selenium-java-2.42.2-srcs.jar:D:\jars\selenium-java-2.42.2.jar:D:\jars\ser
+:\jars\xalan-2.7.1.jar:D:\jars\xercesImpl-2.11.0.jar:D:\jars\xml-apis-1.4.01.jar
+     [echo] compiling...
+    [javac] C:\Users\Gurpreet\Downloads\Wikia\Wikia\build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclass
+s
+    [javac] Compiling 3 source files to C:\Users\Gurpreet\Downloads\Wikia\Wikia\build
+    [javac]
+    [javac]           WARNING
+    [javac]
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>ant run
+Buildfile: C:\Users\Gurpreet\Downloads\Wikia\Wikia\build.xml
+
+setClassPath:
+
+init:
+
+clean:
+   [delete] Deleting directory C:\Users\Gurpreet\Downloads\Wikia\Wikia\build
+
+compile:
+     [echo] making directory...
+    [mkdir] Created dir: C:\Users\Gurpreet\Downloads\Wikia\Wikia\build
+     [echo] classpath------: D:\jars\apache-mime4j-0.6.jar:D:\jars\bsh-1.3.0.jar:D:\jars\cglib-nodep-2.1_3.jar:D:\jars\commons-codec-1.9
+:\jars\commons-exec-1.1.jar:D:\jars\commons-io-2.4.jar:D:\jars\commons-jxpath-1.3.jar:D:\jars\commons-lang3-3.2.1.jar:D:\jars\commons-lo
+:D:\jars\guava-15.0.jar:D:\jars\hamcrest-core-1.3.jar:D:\jars\hamcrest-library-1.3.jar:D:\jars\htmlunit-2.14.jar:D:\jars\htmlunit-core-j
+ars\httpcore-4.3.1.jar:D:\jars\httpmime-4.3.2.jar:D:\jars\ini4j-0.5.2.jar:D:\jars\jcommander-1.29.jar:D:\jars\jetty-websocket-8.1.8.jar:
+.4.0.jar:D:\jars\json-20080701.jar:D:\jars\junit-dep-4.11.jar:D:\jars\nekohtml-1.9.20.jar:D:\jars\netty-3.5.7.Final.jar:D:\jars\operadri
+r:D:\jars\protobuf-java-2.4.1.jar:D:\jars\sac-1.3.jar:D:\jars\selenium-java-2.42.2-srcs.jar:D:\jars\selenium-java-2.42.2.jar:D:\jars\ser
+:\jars\xalan-2.7.1.jar:D:\jars\xercesImpl-2.11.0.jar:D:\jars\xml-apis-1.4.01.jar
+     [echo] compiling...
+    [javac] C:\Users\Gurpreet\Downloads\Wikia\Wikia\build.xml:67: warning: 'includeantruntime' was not set, defaulting to build.sysclass
+s
+    [javac] Compiling 3 source files to C:\Users\Gurpreet\Downloads\Wikia\Wikia\build
+    [javac]
+    [javac]           WARNING
+    [javac]
+    [javac] The -source switch defaults to 1.8 in JDK 1.8.
+    [javac] If you specify -target 1.5 you now must also specify -source 1.5.
+    [javac] Ant will implicitly add -source 1.5 for you.  Please change your build file.
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 4 warnings
+
+run:
+   [testng] The test is executed from this environment: productionEnvironment.properties
+   [testng] [TestNG] Running:
+   [testng]   C:\Users\Gurpreet\Downloads\Wikia\Wikia\testng.xml
+   [testng]
+   [testng] Test-homework Wiki
+   [testng] http://testhomework.wikia.com/wiki/Test-homework_Wiki
+   [testng] http://testhomework.wikia.com/wiki/Test-homework_Wiki
+   [testng] Login Test sucessfull with username : singhgurpreet123& password: p@ssw0rD
+   [testng] The expected title is Singhgurpreet123
+   [testng] The title flex is Singhgurpreet123
+   [testng] Test-homework Wiki
+   [testng] http://testhomework.wikia.com/wiki/Test-homework_Wiki
+   [testng] http://testhomework.wikia.com/wiki/Test-homework_Wiki
+   [testng] The expected title is Contribute Add a Video Add a Photo Add a Page Wiki Activity
+   [testng] The title flex is Contribute
+   [testng] Edit this Page
+   [testng] Add a Video
+   [testng] Add a Photo
+   [testng] Add a Page
+   [testng] Wiki Activity
+   [testng] The expected title is File:The Best Classical Music In The World
+   [testng] The title flex is File:The Best Classical Music In The World
+   [testng] http://testhomework.wikia.com/wiki/File:The_Best_Classical_Music_In_The_World
+   [testng] http://testhomework.wikia.com/wiki/File:The_Best_Classical_Music_In_The_World
+   [testng]
+   [testng] ===============================================
+   [testng] Home Page Test - 1. Login test 2. Upload video test
+   [testng] Total tests run: 3, Failures: 0, Skips: 1
+   [testng] ===============================================
+   [testng]
+
+BUILD SUCCESSFUL
+Total time: 1 minute 14 seconds
+
+C:\Users\Gurpreet\Downloads\Wikia\Wikia>
+
+
+
+
+
+
+
